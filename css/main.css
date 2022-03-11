@@ -11,11 +11,45 @@ font-family: 'Asap', sans-serif; 98cfd9
 */
 
 body {
+
     font-family: Arial, Helvetica, sans-serif;
 	color:black;
 	margin: 0;
     background-color: #F2F2F2;
+    height:100%; 
+    position: relative;
+    
     }
+   /* footer {
+        background-color: #E5E8E8;
+        flex: 10 10 100px;
+        margin-top: auto;
+        bottom: 0;
+        width: 100%;    
+        position: relative;
+      } */
+    
+    footer {
+        position: fixed; 
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+        width: 100%;
+        
+        height: 100px;
+        background: #E5E8E8;
+       
+        bottom: 0;
+        left: 0;
+    }
+
+/*body {
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  } */
+  
+  
 h1 {    
 	font-size: 45px;
 	font-weight: 300;
@@ -35,8 +69,15 @@ h3 {
 p {
     text-align: left;
 	margin-bottom: 10px;
-	line-height: 20px;
+	line-height: 30px;
 }
+
+p1 {
+    
+	margin-bottom: 10px;
+	line-height: 50px;
+}
+
 img {
 	border: 0;
 }
@@ -79,6 +120,7 @@ a:link, a:active,a:visited {
 a:hover {
     text-decoration: underline;
     color: black;
+
 }
 
 main {
@@ -87,15 +129,7 @@ main {
 	margin-right: auto;
 	margin-left: auto;
 }
-footer {
-    position: fixed;
-    padding: 10px 10px 0px 10px;
-    bottom: 0;
-    width: 100%;
-    /* Height of the footer*/ 
-    height: 160px;
-    background: #E5E8E8;
-}
+
 
 .button {
 	background-color:#F2F2F2;
